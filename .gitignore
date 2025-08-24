@@ -1,3 +1,21 @@
+
+# Pastas de saída e logs
+googlemaps/conversion-log.txt
+
+# Logs gerais
+*.log
+
+# Sistema operativo / IDEs
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Dependências lock (opcional, se quiseres gerar no CI)
+# yarn.lock
+# package-lock.json
+
+
 # Logs
 logs
 *.log
