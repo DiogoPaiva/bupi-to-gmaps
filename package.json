@@ -1,14 +1,31 @@
 {
   "name": "bupi-kml-converter",
   "version": "1.0.0",
-  "license": "UNLICENSED",
-  "description": "Conversor de ficheiros KML do sistema BUPi para formato Google Maps/MyMaps",
+  "description": "Conversor de ficheiros KML do sistema BUPi para formato Google Maps/MyMaps, preservando estilos, metadados e fechando polígonos abertos.",
   "main": "kml-bupi-to-gmaps-converter.js",
   "scripts": {
     "convert": "node kml-bupi-to-gmaps-converter.js"
   },
+  "keywords": [
+    "KML",
+    "BUPi",
+    "Google Maps",
+    "converter",
+    "geospatial",
+    "GIS"
+  ],
+  "author": "Diogo Paiva",
+  "license": "MIT",
   "dependencies": {
-    "@xmldom/xmldom": "0.9.0",
+    "@xmldom/xmldom": "^0.9.0",
     "xpath": "^0.0.34"
-  }
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/DiogoPaiva/bupi-to-gmaps.git"
+  },
+  "bugs": {
+    "url": "https://github.com/DiogoPaiva/bupi-to-gmaps/issues"
+  },
+  "homepage": "https://github.com/DiogoPaiva/bupi-to-gmaps#readme"
 }
