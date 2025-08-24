@@ -3,10 +3,11 @@
 // Lê da pasta "bupi" e grava na pasta "googlemaps" com o mesmo nome
 // Mantém estilos e metadados, fecha polígonos e regista log em append
 
-import fs from "fs";
-import path from "path";
-import { DOMParser, XMLSerializer } from "@xmldom/xmldom";
-import xpath from "xpath";
+
+const fs = require("fs");
+const path = require("path");
+const { DOMParser, XMLSerializer } = require("@xmldom/xmldom");
+const xpath = require("xpath");
 
 const inputDir = "./bupi";
 const outputDir = "./googlemaps";

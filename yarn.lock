@@ -2,12 +2,12 @@
 # yarn lockfile v1
 
 
-xmldom@^0.8.10:
-  version "0.6.0"
-  resolved "https://registry.yarnpkg.com/xmldom/-/xmldom-0.6.0.tgz#43a96ecb8beece991cef382c08397d82d4d0c46f"
-  integrity sha512-iAcin401y58LckRZ0TkI4k0VSM1Qg0KGSc3i8rU+xrxe19A/BN1zHyVSJY7uoutVlaTSzYyk/v5AmkewAP7jtg==
+"@xmldom/xmldom@0.9.0":
+  version "0.9.0"
+  resolved "https://registry.yarnpkg.com/@xmldom/xmldom/-/xmldom-0.9.0.tgz#b1f0ff61fb43eef59b7740b6ce25b8b62e243aec"
+  integrity sha512-Zb9MTlKGnUdxglDKF75cJwvsNp+EhPwzguLSTp/u1yeDU59lz7eA9e14S9z/sn5HHKX5NEQZaKjePl/69uqGhw==
 
-xpath@^0.0.32:
-  version "0.0.32"
-  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.32.tgz#1b73d3351af736e17ec078d6da4b8175405c48af"
-  integrity sha512-rxMJhSIoiO8vXcWvSifKqhvV96GjiD5wYb8/QHdoRyQvraTpp4IEv944nhGausZZ3u7dhQXteZuZbaqfpB7uYw==
+xpath@^0.0.34:
+  version "0.0.34"
+  resolved "https://registry.yarnpkg.com/xpath/-/xpath-0.0.34.tgz#a769255e8816e0938e1e0005f2baa7279be8be12"
+  integrity sha512-FxF6+rkr1rNSQrhUNYrAFJpRXNzlDoMxeXN5qI84939ylEv3qqPFKa85Oxr6tDaJKqwW6KKyo2v26TSv3k6LeA==

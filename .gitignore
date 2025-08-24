@@ -6,6 +6,9 @@ googlemaps/conversion-log.txt
 bupi/*
 !bupi/.gitkeep
 
+googlemaps/*
+!googlemaps/.gitkeep
+
 # Logs gerais
 *.log
 
