@@ -1,11 +1,12 @@
 {
   "name": "bupi-kml-converter",
   "version": "1.0.0",
+  "license": "UNLICENSED",
   "description": "Conversor de ficheiros KML do sistema BUPi para formato Google Maps/MyMaps",
   "type": "module",
-  "main": "batch-converter-bupi-kml.js",
+  "main": "kml-bupi-to-gmaps-converter.js",
   "scripts": {
-    "convert": "node batch-converter-bupi-kml.js"
+    "convert": "kml-bupi-to-gmaps-converter.js"
   },
   "dependencies": {
     "xmldom": "^0.8.10",

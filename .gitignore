@@ -2,6 +2,10 @@
 # Pastas de saída e logs
 googlemaps/conversion-log.txt
 
+# manter a pasta de entrada, mas ignorar o seu conteúdo
+bupi/*
+!bupi/.gitkeep
+
 # Logs gerais
 *.log
 

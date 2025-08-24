@@ -52,8 +52,8 @@ O conversor **normaliza** estes aspetos (mantendo estilos e metadados), **fecha 
 ## Estrutura de Pastas
 
 📂 projeto/
-├── 📂 bupi/ # Ficheiros KML originais (input)
-├── 📂 googlemaps/ # Ficheiros KML convertidos (output)
+├── 📂 bupi/ (input)
+├── 📂 googlemaps/ (output)
 │ └── conversion-log.txt
 ├── kml-bupi-to-gmaps-converter.js
 ├── package.json
@@ -69,7 +69,8 @@ O conversor **normaliza** estes aspetos (mantendo estilos e metadados), **fecha 
 yarn install
 ```
 
-**2. Colocar os ficheiros `.kml` originais na pasta `bupi/.`**
+**2. Colocar os ficheiros `.kml` originais na pasta `bupi/`**
+
 **3. Correr o comando:**
 
 ```bash
@@ -80,8 +81,8 @@ node kml-bupi-to-gmaps-converter.js
 
 **4. Ver resultados:**
 
-- Ficheiros convertidos: googlemaps/
-- Log: googlemaps/conversion-log.txt
+- Ficheiros convertidos: `googlemaps/`
+- Log: `googlemaps/conversion-log.txt`
 
 ### Notas Técnicas
 
